@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+}
+
+.logo img{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 34px;
+    width: 90px;
+}
+
+.logo h1{
+    font-family: 'Vujahday Script', 'cursive';
+    font-size: 50px;
+    color: red;
+}
+
+.chaussure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+
+.chaussure .chaussure_img{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chaussure .bande{
+    height: 147px;
+    width: 100%;
+    position: absolute;
+    bottom: 184px;
+    z-index: -1;
+}
+
+.chaussure .gauche{
+    position: absolute;
+    left: 50px;
+    bottom: 240px;
+}
+
+.chaussure .droite{
+    position: absolute;
+    right: 50px;
+    bottom: 240px;
+}
+
+
+.texte{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.prix{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.texte h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.texte h3{
+    font-family: Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.texte h4{
+    text-align: center;
+    width: 80%;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
